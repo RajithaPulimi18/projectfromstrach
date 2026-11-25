@@ -1,0 +1,25 @@
+{
+  "name": "creatioautomationproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --tags \"@signin\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@types/pg": "^8.23.1",
+    "excel": "^1.0.1",
+    "pdf-parse-new": "^2.1.0",
+    "pg": "^8.23.1",
+    "xlsx": "^0.18.5"
+  }
+}
